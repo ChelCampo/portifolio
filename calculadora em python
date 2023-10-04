@@ -1,0 +1,23 @@
+# Declaração de variáveis
+
+numero_1 = float(input("Digite o primeiro número: "))
+numero_2 = float(input("Digite o segundo número: "))
+
+# Escolha da operação
+
+operacao = input("Escolha a operação (+, -, *, /): ")
+
+# Realiza a operação
+
+if operacao == "+":
+    resultado = numero_1 + numero_2
+elif operacao == "-":
+    resultado = numero_1 - numero_2
+elif operacao == "*":
+    resultado = numero_1 * numero_2
+else:
+    resultado = numero_1 / numero_2
+
+# Imprime o resultado
+
+print("O resultado é", resultado)
